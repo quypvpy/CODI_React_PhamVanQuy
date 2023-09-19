@@ -65,7 +65,9 @@ function Products() {
   }, []);
 
   useEffect(() => {
-    getValue();
+    if (params.search) {
+      getValue();
+    }
   }, [location.search]);
 
   const handleBtnMore = () => {

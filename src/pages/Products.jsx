@@ -81,60 +81,65 @@ function Products() {
   };
 
   return (
-    <div className="home">
-      <Navbar settotal={totalItemCart}></Navbar>
-      <div className="">
-        <Swiper
-          navigation={true}
-          scrollbar={{
-            hide: true,
-          }}
-          modules={[Scrollbar, Navigation]}
-          className="mySwiper"
-        >
-          <SwiperSlide>
-            <img src="./image/image1.png" alt="img" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="./image/image2.png" alt="img" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="./image/image3.png" alt="img" />
-          </SwiperSlide>
-        </Swiper>
-      </div>
-      <h3 className="mt-5 mb-5 text-center">Sản phẩm</h3>
+    // <div className="home">
+    //   <Navbar settotal={totalItemCart}></Navbar>
+    //   <div className="">
+    //     <Swiper
+    //       navigation={true}
+    //       scrollbar={{
+    //         hide: true,
+    //       }}
+    //       modules={[Scrollbar, Navigation]}
+    //       className="mySwiper"
+    //     >
+    //       <SwiperSlide>
+    //         <img src="./image/image1.png" alt="img" />
+    //       </SwiperSlide>
+    //       <SwiperSlide>
+    //         <img src="./image/image2.png" alt="img" />
+    //       </SwiperSlide>
+    //       <SwiperSlide>
+    //         <img src="./image/image3.png" alt="img" />
+    //       </SwiperSlide>
+    //     </Swiper>
+    //   </div>
+    //   <h3 className="mt-5 mb-5 text-center">Sản phẩm</h3>
 
-      <div className="container-md containerProduct mt-3">
-        <div className="row pb-5">
-          {params.name ? (
-            <Product
-              handleClick={handleClick}
-              image={true}
-              result={products}
-              classGrid="col-sm-4 col-md-3"
-            ></Product>
-          ) : (
-            <Product
-              handleClick={handleClick}
-              result={products}
-              classGrid="col-sm-4 col-md-3"
-            ></Product>
-          )}
-        </div>
-        {params.limit < count && (
-          <div className="text-center mt-5 mb-5">
-            <button
-              type="button"
-              className="btn btn-info ps-5 pe-5"
-              style={{ marginBottom: "50px" }}
-              onClick={handleBtnMore}
-            >
-              Xem Thêm
-            </button>
-          </div>
-        )}
-      </div>
+    //   <div className="container-md containerProduct mt-3">
+    //     <div className="row pb-5">
+    //       {params.name ? (
+    //         <Product
+    //           handleClick={handleClick}
+    //           image={true}
+    //           result={products}
+    //           classGrid="col-sm-4 col-md-3"
+    //         ></Product>
+    //       ) : (
+    //         <Product
+    //           handleClick={handleClick}
+    //           result={products}
+    //           classGrid="col-sm-4 col-md-3"
+    //         ></Product>
+    //       )}
+    //     </div>
+    //     {params.limit < count && (
+    //       <div className="text-center mt-5 mb-5">
+    //         <button
+    //           type="button"
+    //           className="btn btn-info ps-5 pe-5"
+    //           style={{ marginBottom: "50px" }}
+    //           onClick={handleBtnMore}
+    //         >
+    //           Xem Thêm
+    //         </button>
+    //       </div>
+    //     )}
+    //   </div>
+    // </div>
+    <div>
+      <div className="home"></div>
+      <div className="home"></div>
+      <div className="home"></div>
     </div>
   );
 }

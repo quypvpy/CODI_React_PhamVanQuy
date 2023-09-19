@@ -107,7 +107,7 @@ function Products() {
       </div>
       <h3 className="mt-5 mb-5 text-center">Sản phẩm</h3>
 
-      <div className="container-md containerProduct mt-3">
+      {/* <div className="container-md containerProduct mt-3">
         <div className="row pb-5">
           {params.name ? (
             <Product
@@ -136,7 +136,7 @@ function Products() {
             </button>
           </div>
         )}
-      </div>
+      </div> */}
     </div>
     // <div>
     //   <div className="home"></div>

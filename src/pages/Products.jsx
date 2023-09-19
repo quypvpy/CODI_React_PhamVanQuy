@@ -86,7 +86,7 @@ function Products() {
     <div className="home">
       {params.limit && (
         <div>
-          <Navbar settotal={totalItemCart}></Navbar>
+          {/* <Navbar settotal={totalItemCart}></Navbar> */}
           <div className="">
             <Swiper
               navigation={true}

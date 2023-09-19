@@ -148,6 +148,11 @@ function Navbar(props) {
                 </a>
               </li>
               <li className="nav-item">
+                <a className="nav-link" href={`/todo2`}>
+                  Todo
+                </a>
+              </li>
+              <li className="nav-item">
                 <a
                   className="nav-link"
                   href="#"

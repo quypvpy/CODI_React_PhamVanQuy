@@ -24,7 +24,9 @@ function Navbar(props) {
   });
 
   let sum = 0;
-  JSON.parse(cart).map((item) => (sum += item[1]));
+  if (cart) {
+    JSON.parse(cart).map((item) => (sum += item[1]));
+  }
 
   const getValue = async () => {
     fetch(

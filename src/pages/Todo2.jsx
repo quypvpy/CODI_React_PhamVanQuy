@@ -122,7 +122,7 @@ function Todo2() {
   return (
     <div className="mt-5">
       <Navbar></Navbar>
-      <div>Todo</div>
+
       <div className="container mt-4">
         <div className="row">
           <div className="col-md-9">

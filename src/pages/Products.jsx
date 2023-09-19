@@ -110,7 +110,7 @@ function Products() {
           <h3 className="mt-5 mb-5 text-center">Sản phẩm</h3>
 
           <div className="container-md containerProduct mt-3">
-            <div className="row pb-5">
+            {/* <div className="row pb-5">
               {params.name ? (
                 <Product
                   handleClick={handleClick}
@@ -125,7 +125,7 @@ function Products() {
                   classGrid="col-sm-4 col-md-3"
                 ></Product>
               )}
-            </div>
+            </div> */}
             {params.limit < count && (
               <div className="text-center mt-5 mb-5">
                 <button

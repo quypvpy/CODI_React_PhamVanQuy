@@ -120,7 +120,7 @@ function Todo2() {
   };
 
   return (
-    <div className="mt-5">
+    <div className="todo2">
       <Navbar></Navbar>
 
       <div className="container mt-4">

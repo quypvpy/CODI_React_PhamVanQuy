@@ -159,7 +159,7 @@ function SampleProducts() {
             </Swiper>
           </>
 
-          <div className="">Sản phẩm cùng thương hiệu</div>
+          <h4 className="mt-3">Sản phẩm cùng thương hiệu</h4>
           <>
             <Swiper
               slidesPerView={3}

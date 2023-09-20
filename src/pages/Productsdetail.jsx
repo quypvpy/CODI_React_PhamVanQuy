@@ -221,7 +221,7 @@ function Productsdetail() {
                         class="btn bg-secondary-subtle"
                         onClick={() => AddBackground2()}
                       >
-                        REVIEWS
+                        SẢN PHẨM CÙNG LOẠI
                       </button>
                     </Link>
                   )}

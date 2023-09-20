@@ -73,7 +73,7 @@ function Login() {
                   }}
                   type="text"
                   className="form-control"
-                  placeholder="Email"
+                  placeholder="quypvpy@gmail.com"
                   aria-label="Recipient's username"
                   aria-describedby="basic-addon2"
                 />
